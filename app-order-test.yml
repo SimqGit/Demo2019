@@ -19,7 +19,7 @@ eureka:
     prefer-ip-address: true
     metadata-map:
       key01: key01
-      value01: '{cipher}AIBvvwc0UyAUyvGYb0DEggtsyvIybT0OaK2Fbt2/ViMWfEmEwSPiwRwp8028yUdqW2F7/lejXe19iovQ5jZlL7OdWL2MkS5jVatdPGo7NEhOStRPIlWT721uS52xa9cSQXXFJXiy76LQiqdQCZNgwP7Pv1KDVg0oQ4zX9XsVYCa/5pqD0H1ezxDYzC4IIWfVNt1Z72n8H4cOQnB9hpgye9B1'
+      value01: '{cipher}AIBliC2dT0/5aMFd9oeCZyXcPLhmBijGueieOkhnj1U6wAe7esJaWJhBPc+MrZaB/X22UrLYel+BMufjIh1+IBFYCgbJolEH1XB9G6LlEFd9OgcUhQqVTVkbV1ygPqFXdA8I50xURXhM+S0AkyCGmuN7jrz4FxemyIAeOrKYjdYcK2T4+GsttvmnYjxrrAriJxaQ6eXAEJxyYYAqZcPOYczx'
 
 feign:
   hystrix:
