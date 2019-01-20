@@ -19,7 +19,7 @@ eureka:
     prefer-ip-address: true
     metadata-map:
       key01: key01
-      value01: value01
+      value01: '{cipher}d4c64600599a18ce254d4ff2e3494f74df7abec4d2c723963691b29ec588a91d'
 
 feign:
   hystrix:
