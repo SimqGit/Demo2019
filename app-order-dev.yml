@@ -19,8 +19,14 @@ eureka:
     prefer-ip-address: true
     metadata-map:
       key01: key01
-      value01: '{cipher}df9f93b9f7ec1edb83fd75fe60d9b86e26550577dcbd2f309c9a23b4f4805cb3'
+      value01: '{cipher}AIBliC2dT0/5aMFd9oeCZyXcPLhmBijGueieOkhnj1U6wAe7esJaWJhBPc+MrZaB/X22UrLYel+BMufjIh1+IBFYCgbJolEH1XB9G6LlEFd9OgcUhQqVTVkbV1ygPqFXdA8I50xURXhM+S0AkyCGmuN7jrz4FxemyIAeOrKYjdYcK2T4+GsttvmnYjxrrAriJxaQ6eXAEJxyYYAqZcPOYczx'
 
 feign:
   hystrix:
     enabled: true
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
